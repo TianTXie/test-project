@@ -1,0 +1,41 @@
+{"dialog": {
+    "textBrowser": {
+        "title": "Sample Konfabulator Widget",
+        "name": "main_window",
+        "width": 360,
+        "height": 150,
+	"x": 20,
+	"y": 20
+    },
+    "label1": {
+        "data": "Drag me1",
+        "size": 36,
+        "style": "bold",
+        "name": "text1",
+        "hOffset": 50,
+        "vOffset": 200,
+        "alignment": "center",
+        "onMouseUp": "sun1.opacity = (sun1.opacity / 100) * 90;"
+    },
+    "label2": {
+        "data": "Drag me2",
+        "size": 36,
+        "style": "bold",
+        "name": "text2",
+        "hOffset": 100,
+        "vOffset": 200,
+        "alignment": "center",
+        "onMouseUp": "sun1.opacity = (sun1.opacity / 100) * 90;"
+    },
+   "label3": {
+        "data": "Drag me3",
+        "size": 36,
+        "style": "bold",
+        "name": "text2",
+        "hOffset": 150,
+        "vOffset": 200,
+        "alignment": "center",
+        "onMouseUp": "sun1.opacity = (sun1.opacity / 100) * 90;"
+    }
+  }
+}
